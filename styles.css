@@ -1,0 +1,38 @@
+
+
+body{
+	font-family: 'Open Sans',sans-serif;
+    background-color: black;
+    Background:url('https://i.imgur.com/mSPU63U.jpg');
+    height: 100%;
+}
+#calculator{
+	width: 320px;
+	height: 370px;
+	background-color:burlywood;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+    font-size: 30px;
+    color: black;
+}
+#keyboard{
+	height: 300px;
+}
+.btn-style{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
